@@ -1,6 +1,5 @@
-$(document).ready(function(){
+$(function(){
 	$('.menu-icon').click(function(){
-		$('.menu').slideToggle('slow', function(){
-		});
+		$('.menu').slideToggle('slow');
 	});
 });
