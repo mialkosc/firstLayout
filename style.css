@@ -1,0 +1,55 @@
+html, body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	width: 100%;
+	margin-top: 5px;
+}
+
+.menu {
+	height: 60px;
+	background-color: #DDDD00;
+	display: none;
+	border-radius: 10px;
+	
+}
+
+.content {
+	background-color: #00DDFF;
+	height: 100%;
+	overflow: hidden;
+}
+
+.menu-icon {
+	background-color: #FF0000;
+	height: 45px;
+	width: 45px;
+	position: relative;
+	margin-right: 5px;
+	float: right;
+	border-radius: 5px;
+}
+
+.picture {
+	height: 50px;
+	width: 20%;
+	border: 1px solid #000000;
+	margin-top: 5px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+.picture:first-child {
+	margin-left: 20px; /*tu ustawiam 20px zeby odsunąć od brzegu pierwszy picture*/
+}
+
+.left {
+	float: left;
+	width: 35%;
+	height: 100%;
+	border: 1px solid #000022;
+	background-color: #CCCCCC;
+}
